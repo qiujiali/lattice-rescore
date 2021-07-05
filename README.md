@@ -2,7 +2,7 @@
 
 This repository is the code used in our paper:
 
->**[Combining Frame-Synchronous and Label-Synchronous Systems for Speech Recognition](https://arxiv.org/abs/2107.?????)**
+>**[Combining Frame-Synchronous and Label-Synchronous Systems for Speech Recognition](https://arxiv.org/abs/2107.00764)**
 >
 >*Qiujia Li, Chao Zhang, Phil Woodland*
 >
@@ -22,7 +22,7 @@ In this work, we use the standard Kaldi systems for the first pass and the ESPne
 | Combine(500-best)   	|    15.8 	|     14.1 	|         9.1 	|     11.3 	|
 | **Combine(lattice)** 	|    **15.7** 	|     **13.8** 	|         **8.9** 	|     **10.5** 	|
 
-For more details, please refer to the [paper](https://arxiv.org/pdf/2107.?????.pdf).
+For more details, please refer to the [paper](https://arxiv.org/pdf/2107.00764.pdf).
 
 ## Dependencies
 Apart from dependencies for [ESPnet](https://github.com/espnet/espnet) and [Kaldi](https://github.com/kaldi-asr/kaldi) for ASR, the following tools are used:
@@ -76,7 +76,7 @@ After obtaining the optimal interpolation coefficients on the dev set, run `get_
 @article{Li2021CombiningFA,
   title={Combining frame-synchronous and label-synchronous systems for speech recognition},
   author={Li, Qiujia and Zhang, Chao and Woodland, Philip C.},
-  journal={arXiv},
+  journal={arXiv:2107.00764},
   year={2021},
 }
 
