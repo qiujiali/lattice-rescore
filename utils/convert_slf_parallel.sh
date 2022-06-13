@@ -126,7 +126,7 @@ fi
 if [ $stage -le 2 ]; then
   # convert FST to HTK lattice, mapping the words from arcs to nodes
   $cmd JOB=1:$nj $dir/log/fst2htklat.JOB.log \
-    fst2htklat.sh $dir/$dirname/JOB/fst.scp $dir/JOB || exit 1
+    utils/fst2htklat.sh $dir/$dirname/JOB/fst.scp $dir/JOB || exit 1
 fi
 
 if [ $stage -le 3 ]; then
